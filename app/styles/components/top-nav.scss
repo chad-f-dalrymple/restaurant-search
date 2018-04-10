@@ -1,0 +1,19 @@
+.top-navigation {
+  background-color: $tan;
+}
+
+.menu {
+  &-title {
+    color: $fontBlack;
+    font-size: $tXL;
+    font-style: normal !important;
+    font-weight: $regularWeight;
+    letter-spacing: 0.86px;
+  }
+  &-links {
+    color: $fontBlack;
+    font-size: $tRG;
+    font-weight: $regularWeight;
+    text-align: right;
+  }
+}
