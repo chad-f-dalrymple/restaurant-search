@@ -9,6 +9,7 @@
 .card {
   &-image {
     max-height: 15.625rem;
+    min-height: 15.625rem;
   }
   &-title {
     font-size: $tMD;
