@@ -1,0 +1,17 @@
+.restaurant-card {
+  max-height: 25rem;
+  &-background {
+    background-color: $lightGray;
+  }
+}
+
+.card {
+  &-image {
+    max-height: 15.625rem;
+  }
+  &-title {
+    font-size: $tMD;
+    font-weight: $mediumWeight;
+    text-transform: lowercase;
+  }
+}

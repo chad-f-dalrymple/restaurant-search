@@ -4,6 +4,9 @@
 }
 
 .hero-background {
-  background: url("/public/img/background/restaurant-background.jpg");
+  background: url("/assets/img/background/restaurant-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   max-width: 100%;
 }
