@@ -3,10 +3,27 @@
   height: 24rem;
 }
 
-.hero-background {
-  background: url("/assets/img/background/restaurant-background.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100%;
+.hero {
+  &-background {
+    background: url("/assets/img/background/restaurant-background-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+  &-copy {
+    color: $white;
+    font-size: $tLG;
+    font-weight: $heavyWeight;
+    margin-top: $mt3XL;
+  }
+}
+
+.text-field {
+  border-radius: 20px;
+  margin: 7rem auto;
+  width: 40%;
+  @media screen and (max-width: 39.9375em) {
+    width: 80%;
+  }
 }

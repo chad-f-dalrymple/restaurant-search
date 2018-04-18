@@ -1,19 +1,31 @@
+.background {
+  background-color: $lightGray;
+  min-width: 100%;
+}
+
 .restaurant-card {
   max-height: 25rem;
+  max-width: 20.625rem;
+  @media screen and (max-width: 39.9375em) {
+    margin: $mtRG auto;
+  }
   &-background {
     background-color: $lightGray;
+    margin: auto;
+    max-width: 80%;
     padding-top: $pt3XL;
   }
 }
 
 .card {
   &-image {
-    max-height: 15.625rem;
-    min-height: 15.625rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 13.25rem;
   }
   &-title {
     font-size: $tMD;
     font-weight: $mediumWeight;
-    text-transform: lowercase;
   }
 }
