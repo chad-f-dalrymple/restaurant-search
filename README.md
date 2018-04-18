@@ -1,3 +1,6 @@
+This app is being hosted on Heroku: https://morning-waters-19112.herokuapp.com/
+Don't mind the name in the URL, I'm in the process of changing it :)
+
 # restaurant-search
 
 This README outlines the details of collaborating on this Ember application.
