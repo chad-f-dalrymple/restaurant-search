@@ -3,9 +3,19 @@
   border-radius: 5px;
   color: $white;
   font-size: $tRG;
+  font-weight: $heavyWeight;
   line-height: 0.25;
-  margin: auto $mrXXS;
+  margin-bottom: 0;
   max-height: 2.25rem;
-  padding: $ptSM $prRG;
-  width: 40%;
+  padding: $ptRG $prRG;
+  width: 20%;
+  @media screen and (max-width: 39.9375em) {
+    width: 80%;
+  }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    width: 50%;
+  }
+  &-container {
+    margin: auto;
+  }
 }
