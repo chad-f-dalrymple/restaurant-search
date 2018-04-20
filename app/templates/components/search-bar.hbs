@@ -1,6 +1,6 @@
 <div class="container">
   <div class="grid-x">
-    <div class="location dropdown float-right large-auto medium-auto small-auto">
+    <div class="location dropdown float-right large-4 medium-4 small-4">
       {{#basic-dropdown as |dd|}}
         {{#dd.trigger class="float-right location-dropdown"}}
           {{t 'dropdown.label'}}
@@ -12,15 +12,17 @@
         {{/dd.content}}
       {{/basic-dropdown}}
     </div>
-    <div class="search input large-6 medium-6 small-6">
+    <div class="search input large-4 medium-4 small-4">
       {{input
         class="text-field input"
         type="text"
         placeholder="What are you looking for?"
       }}
     </div>
-    <div class="button search-button cta large-2 medium-2 small-2">
-      {{t 'button.search'}}
+    <div class="search-button-container large-4 medium-4 small-4">
+      <div class="button search-button cta">
+        {{t 'button.search'}}
+      </div>
     </div>
   </div>
 </div>
