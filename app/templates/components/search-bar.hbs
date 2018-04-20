@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="grid-x">
+    <div class="location dropdown float-right large-auto medium-auto small-auto">
+      {{#basic-dropdown as |dd|}}
+        {{#dd.trigger class="float-right location-dropdown"}}
+          {{t 'dropdown.label'}}
+        {{/dd.trigger}}
+
+        {{#dd.content class="location-dropdown-content"}}
+          <p>{{t 'dropdown.content'}}</p>
+          <p>{{t 'dropdown.content'}}</p>
+        {{/dd.content}}
+      {{/basic-dropdown}}
+    </div>
+    <div class="search input large-6 medium-6 small-6">
+      {{input
+        class="text-field input"
+        type="text"
+        placeholder="What are you looking for?"
+      }}
+    </div>
+    <div class="button search-button cta large-2 medium-2 small-2">
+      {{t 'button.search'}}
+    </div>
+  </div>
+</div>
