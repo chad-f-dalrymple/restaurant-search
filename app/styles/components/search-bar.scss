@@ -1,0 +1,9 @@
+.text-field {
+  border-radius: 20px;
+  margin: 7rem auto;
+  width: 80%;
+  @media screen and (max-width: 39.9375em) {
+    width: 80%;
+  }
+}
+

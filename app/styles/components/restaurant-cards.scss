@@ -1,16 +1,17 @@
 .background {
-  background-color: $lightGray;
+  background-color: $white;
   min-width: 100%;
 }
 
 .restaurant-card {
+  border-radius: 5px;
   max-height: 25rem;
   max-width: 20.625rem;
   @media screen and (max-width: 39.9375em) {
     margin: $mtRG auto;
   }
   &-background {
-    background-color: $lightGray;
+    background-color: $white;
     margin: auto;
     max-width: 80%;
     padding-top: $pt3XL;

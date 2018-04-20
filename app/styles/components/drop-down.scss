@@ -1,0 +1,30 @@
+.location {
+  margin: auto;
+  &-dropdown {
+  background-color: $white;
+  border-radius: 4px;
+  border: 1px solid $lightGray;
+  color: $fontBlack;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.5;
+  margin: auto;
+  outline: none;
+  padding: $pt3XS $ptXS;
+  text-align: center;
+  vertical-align: middle;
+  }
+  &-dropdown-content {
+    background-color: $white;
+    border: 1px solid $blackboard;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px $blackboard;
+    margin: 2px 0 0;
+    padding: $pt3XS;
+  }
+}
+
+.location-dropdown:focus, .location-dropdown:hover {
+  background-color: $lightGray;
+  border-color: $blackboard;
+}
