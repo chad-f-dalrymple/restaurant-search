@@ -11,10 +11,20 @@
 
 {{restaurant-cards}}
 
-{{#each model as |location|}}
-  <article class="city">
-    <h3>{{location.city}}</h3>
-  </article>
-{{/each}}
+<div class="location-table-title text-center large-8 medium-8 small-8">
+  <h4>{{t 'location.title'}}</h4>
+  <p>{{t 'location.city'}}</p>
+</div>
+
+<div class="location-table grid-x">
+  {{#each model as |location|}}
+    <div class="large-4 medium-4 small-4 grid-margin-x grid-padding-x">
+      <div class="table-text float-right card cell">
+        <img src={{location.image}} class="city-image">
+        <p class="city-name text-center">{{location.city}}</p>
+      </div>
+    </div>
+  {{/each}}
+</div>
 
 {{main-footer}}

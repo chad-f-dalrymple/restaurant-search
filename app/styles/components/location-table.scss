@@ -1,0 +1,26 @@
+.location-table {
+  max-width: 80%;
+  margin: $mt4XL auto;
+  &-title {
+    margin-top: $mt4XL;
+  }
+}
+
+.table-text {
+  margin: auto;
+  width: 60% !important;
+}
+
+.city {
+  &-name {
+    color: $fontBlack;
+    font-size: $tMD;
+    font-weight: $regularWeight;
+    margin: auto;
+  }
+  &-image {
+    max-width: 100%;
+    max-height: 12rem;
+    width: 100%;
+  }
+}
