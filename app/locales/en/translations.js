@@ -1,4 +1,8 @@
 export default {
+  location: {
+    city: "You can find restaurants in these cities",
+    title: "Where do you live?"
+  },
   restaurant: {
     card: {
       title: "this is the restaurant title",
@@ -9,7 +13,7 @@ export default {
     placeholder: "What are you looking for today?"
   },
   footer: {
-    body: "Lorem {{{moment '12-25-1995' 'MM-DD-YYYY'}}} ipsum dolor amet edison bulb air plant succulents cold-pressed 3 wolf moon. Try-hard PBR&B disrupt green juice."
+    body: "Lorem ipsum dolor amet edison bulb air plant succulents cold-pressed 3 wolf moon. Try-hard PBR&B disrupt green juice."
   },
   dropdown: {
     label: "Location ▾",
@@ -19,5 +23,5 @@ export default {
     search: "Search",
     primary: "Primary",
     secondary: "Secondary"
-  }
+  },
 }
