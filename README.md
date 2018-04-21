@@ -1,5 +1,4 @@
-This app is being hosted on Heroku: https://morning-waters-19112.herokuapp.com/
-Don't mind the name in the URL, I'm in the process of changing it :)
+This app is being hosted on Heroku: https://recura.herokuapp.com/home. There is not functionality at this point. Currently, I am working on the templating and components. I have used specific ember add ons for this project and am currently working to include Moment.js
 
 # restaurant-search
 
