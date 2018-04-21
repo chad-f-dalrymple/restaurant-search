@@ -1,3 +1,7 @@
+@import "settings";
+@import 'foundation-sites/foundation';
+@include foundation-everything;
+
 @import "recura-variables";
 @import "components/location-table";
 @import "components/top-nav";
@@ -8,7 +12,3 @@
 @import "components/search-bar";
 @import "components/button-components";
 @import 'ember-basic-dropdown';
-
-@import "settings";
-@import 'foundation-sites/foundation';
-@include foundation-everything;
