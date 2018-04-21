@@ -10,4 +10,11 @@
 </div>
 
 {{restaurant-cards}}
+
+{{#each model as |location|}}
+  <article class="city">
+    <h3>{{location.city}}</h3>
+  </article>
+{{/each}}
+
 {{main-footer}}
