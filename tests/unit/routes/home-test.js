@@ -1,11 +1,17 @@
 import { module, test } from 'qunit';
-import { setupTest } from 'ember-qunit';
+import { setupApplicationTest } from 'ember-qunit';
+import { visit, currentURL } from '@ember/test-helpers';
 
 module('Unit | Route | home', function(hooks) {
-  setupTest(hooks);
+  setupApplicationTest(hooks);
 
-  test('it exists', function(assert) {
-    let route = this.owner.lookup('route:home');
-    assert.ok(route);
+  module('Acceptance | list rentals', function (hooks) {
+    setupApplicationTest(hooks);
+
+    test('should show rentals as the home page', async function (assert) {
+      await visit('/');
+      assert.equal(currentURL(), '/rentals', 'should redirect automatically');
+    });
   });
-});
+
+})
