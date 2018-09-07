@@ -2273,7 +2273,7 @@ ember-cli-htmlbars-inline-precompile@^1.0.0:
     heimdalljs-logger "^0.1.7"
     silent-error "^1.1.0"
 
-ember-cli-htmlbars@^1.0.2:
+ember-cli-htmlbars@^1.0.2, ember-cli-htmlbars@^1.1.1:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-1.3.4.tgz#461289724b34af372a6a0c4b6635819156963353"
   dependencies:
@@ -2634,6 +2634,14 @@ ember-inflector@^2.0.0:
   resolved "https://registry.yarnpkg.com/ember-inflector/-/ember-inflector-2.2.0.tgz#edd273dfd1a29be27f14b195e2f0ed70e812d9e0"
   dependencies:
     ember-cli-babel "^6.0.0"
+
+ember-jets@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/ember-jets/-/ember-jets-1.3.0.tgz#5fc1938345b41e9723a0342b5f662c1c2c3d2009"
+  dependencies:
+    ember-cli-babel "^6.6.0"
+    ember-cli-htmlbars "^1.1.1"
+    jets "^0.14.0"
 
 ember-load-initializers@^1.0.0:
   version "1.1.0"
@@ -4392,6 +4400,10 @@ isurl@^1.0.0-alpha5:
   dependencies:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
+
+jets@^0.14.0:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/jets/-/jets-0.14.1.tgz#7b0ab29d4297d005766ceaf8af6c00f57ed0f04f"
 
 jquery@>=3.0.0, jquery@^3.2.1:
   version "3.3.1"

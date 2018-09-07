@@ -17,7 +17,9 @@ export default {
   },
   dropdown: {
     label: "Location ▾",
-    content: "Lorem ipsum dolor amet"
+    content: {
+      city: "Lorem ipsum dolor amet"
+    },
   },
   button: {
     search: "Search",
