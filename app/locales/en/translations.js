@@ -13,7 +13,7 @@ export default {
     placeholder: "What are you looking for today?"
   },
   footer: {
-    body: "Lorem ipsum dolor amet edison bulb air plant succulents cold-pressed 3 wolf moon. Try-hard PBR&B disrupt green juice."
+    body: "Made with love in Boston, MA."
   },
   dropdown: {
     label: "Location ▾",
